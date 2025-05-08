@@ -51,7 +51,7 @@ public class Personne {
             scanner.nextLine();
         } while (age <= 0);
 
-        // Validation du téléphone
+        // Validation du numero de téléphone
         String telephone;
         boolean numeroValide;
         do {
