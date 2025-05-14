@@ -1,3 +1,4 @@
+package java1;
 import java.util.*;
 
 public class Personne {
@@ -5,12 +6,12 @@ public class Personne {
     private String nom;
     private String adresse;
     private int age;
-    private String telephone;
-    
-    // Variables de classe pour la gestion
     private static Personne[] personnes = new Personne[100];
     private static int nombrePersonnes = 0;
-    private static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in); private String telephone;
+    
+    // Variables de classe pour la gestion
+    
 
     // Constructeurs
     public Personne() {} // Constructeur vide
